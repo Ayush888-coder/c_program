@@ -3,7 +3,7 @@ int main()
 {
     char n;
     int menu;
-    printf("Enter the alphabet you want to check it is a vowel or a consonant");
+    printf("Enter the alphabet you want to check it is a vowel or a consonant\n");
     scanf("%c",&n);
     menu =(n=='a' || n=='e' || n=='i' || n=='o' || n=='u');
     if(menu)
